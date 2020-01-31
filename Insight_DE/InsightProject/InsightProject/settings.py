@@ -89,11 +89,11 @@ if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': os.environ['RDS_DB_NAME'],
-            'USER': os.environ['RDS_USERNAME'],
-            'PASSWORD': os.environ['RDS_PASSWORD'],
-            'HOST': os.environ['RDS_HOSTNAME'],
-            'PORT': os.environ['RDS_PORT'],
+            'NAME': os.environ['insight-database'],
+            'USER': os.environ['postgres'],
+            'PASSWORD': os.environ['password'],
+            'HOST': os.environ['insight-database.cuxkqvd2pa3c.us-east-1.rds.amazonaws.com'],
+            'PORT': os.environ['5432'],
         }
     }
 else:
