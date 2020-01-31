@@ -26,7 +26,7 @@ SECRET_KEY = ')$8u4+je93!j1!0-e)f(d#68*6j6_nf)xj$t216hms9)fh6emn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Insight-DE-dev-env.us-east-1.elasticbeanstalk.com']
 
 # Application definition
 
