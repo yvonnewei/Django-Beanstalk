@@ -2,3 +2,7 @@ django_test/app/__init__.py
 django_test/app/migrations/
 django_test/django_test/__init__.py
 django_test/django_test/__pycache__/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
